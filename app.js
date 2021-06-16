@@ -1,10 +1,5 @@
 var name = 'Radu';
 
-{
- let test = 5;
- console.log(test)
-}
-
 console.log(test)
 
 if (name ==='Radu') {
@@ -13,8 +8,8 @@ if (name ==='Radu') {
 }
 
 function greet() {
-    var age = 26;
-    var name = 'Bambie';
+    let age = 26;
+    let name = 'Bambie';
     console.log(name, age, hobbies);
 }
 
